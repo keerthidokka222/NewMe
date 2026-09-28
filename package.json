@@ -1,4 +1,16 @@
 {
   "name": "practice-app",
-  "packageManager": "yarn@4.14.1"
+  "workspaces": [
+    "apps/*",
+    "sdks/*",
+    "shared/*"
+  ],
+  "packageManager": "yarn@3.6.4",
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.19.2",
+    "@react-navigation/native": "^7.4.1",
+    "@react-navigation/stack": "^7.11.2",
+    "react-native-safe-area-context": "^5.10.0",
+    "react-native-screens": "^4.28.0"
+  }
 }
