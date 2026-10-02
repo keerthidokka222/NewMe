@@ -1,5 +1,5 @@
 {
     "name": "@newme/toppicks-sdk",
     "version": "1.0.0",
-    "main": "src/TopPicksSDK.tsx"
+    "main": "src/index.ts"
 }

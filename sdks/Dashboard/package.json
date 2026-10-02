@@ -1,5 +1,5 @@
 {
   "name": "@newme/dashboard-sdk",
   "version": "1.0.0",
-  "main": "src/DashboardSDK.tsx"
+  "main": "src/index.ts"
 }

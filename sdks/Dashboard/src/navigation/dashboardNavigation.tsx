@@ -6,11 +6,12 @@ import PlanSummary from '../screens/PlanSummary';
 import UserSummary from '../screens/UserSummary';
 const Stack = createStackNavigator<DashboardParamList>();
 
-export type DashboardParamList ={
-    "Home":undefined,
-    "PlanSummary":undefined,
-    "UserSummary":undefined
-}
+export const DashboardRoutes = {
+    "Home": undefined,
+    "PlanSummary": undefined,
+    "UserSummary": undefined
+};
+export type DashboardParamList = typeof DashboardRoutes;
 export const DashboardNavigation = () => {
     return (
         <Stack.Navigator

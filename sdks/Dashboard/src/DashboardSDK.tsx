@@ -1,10 +1,19 @@
 import React from 'react';
-import DashboardNavigation from '../src/navigation/dashboardNavigation'
-type config ={
-    text: string
-}
-export const DashboardSDK = (config: config)=>{
+import DashboardNavigation from './navigation/DashboardNavigation'
+import { DashboardContextConfig, defaultDashboardContextConfig } from './types/DashboardContexConfig';
+import { DashboardContext } from './context/DashboardContex';
+import { ContextConfig } from '@newme/shared-sdk';
+export const DashboardSDK = (config: ContextConfig)=>{
+    const {userConfig, theme, navigationHandler} = config;
+    const DashboardContextConfig: DashboardContextConfig = {
+            DashboardData: defaultDashboardContextConfig.DashboardData,
+            userConfig,
+            theme,
+            navigationHandler
+    }
 
-    return <DashboardNavigation />
+    return (<DashboardContext.Provider value={DashboardContextConfig}>
+        <DashboardNavigation />
+    </DashboardContext.Provider>)
 }
 export default DashboardSDK

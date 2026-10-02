@@ -1879,6 +1879,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@newme/shared-sdk@workspace:*, @newme/shared-sdk@workspace:shared":
+  version: 0.0.0-use.local
+  resolution: "@newme/shared-sdk@workspace:shared"
+  languageName: unknown
+  linkType: soft
+
 "@newme/shop-sdk@workspace:sdks/Shop":
   version: 0.0.0-use.local
   resolution: "@newme/shop-sdk@workspace:sdks/Shop"
@@ -2823,6 +2829,7 @@ __metadata:
     "@babel/preset-env": ^7.25.3
     "@babel/runtime": ^7.25.0
     "@newme/dashboard-sdk": "workspace:*"
+    "@newme/shared-sdk": "workspace:*"
     "@react-native-community/cli": 20.2.0
     "@react-native-community/cli-platform-android": 20.2.0
     "@react-native-community/cli-platform-ios": 20.2.0

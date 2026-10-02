@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeWrapper from '../screens/Homewrapper';
+import HomeWrapper from '../screens/HomeWrapper';
 import ShopWrapper from '../screens/ShopWrapper';
 import OffersWrapper from '../screens/OffersWrapper';
 import TopPicksWrapper from '../screens/TopPicksWrapper';

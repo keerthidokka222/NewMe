@@ -6,3 +6,4 @@ type sdkconfig ={
 export const WishlistSDK = ( config: sdkconfig)=>{
     return <WishlistNavigation />
 }
+export default WishlistSDK;

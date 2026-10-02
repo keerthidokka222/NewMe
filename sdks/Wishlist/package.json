@@ -1,5 +1,5 @@
 {
     "name": "@newme/wishlist-sdk",
     "version": "1.0.0",
-    "main": "src/WishlistSDK.tsx"
+    "main": "src/index.ts"
 }

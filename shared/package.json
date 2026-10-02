@@ -1,5 +1,5 @@
 {
-    "name": "@newme/shop-sdk",
+    "name": "@newme/shared-sdk",
     "version": "1.0.0",
     "main": "src/index.ts"
 }

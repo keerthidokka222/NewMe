@@ -2,11 +2,12 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import ShopScreen from '../screens/ShopScreen';
 
-type shopPathList = {
+export const ShopRoutes = {
     shopscreen: undefined
 }
+export type ShopParamList = typeof ShopRoutes;
 export const ShopNavigator = () =>{
-    const Stack = createStackNavigator<shopPathList>();
+    const Stack = createStackNavigator<ShopParamList>();
     return(
         <Stack.Navigator>
             <Stack.Screen name="shopscreen" component={ShopScreen} />
